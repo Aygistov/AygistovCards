@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	//outline: 1px solid green;
+	font-family: 'Philosopher', sans-serif;
+}
+
+.card-holder {
+	height: 18cm;
+	width: 29cm;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.card {
+	font-weight: bold;
+	border: 1px dashed black;
+	height: 6cm;
+	width: 9cm;
+
+}
+
+.card-title {
+	text-align: center;
+	height: 15%;
+	line-height: 200%;
+	font-size: 120%;
+}
+
+.card-body {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	height: 85%;
+	width: 9cm;
+	font-size: 95%;
+}
+
+figure {
+	text-align: center;
+	height: 2cm;
+	width: 3cm;
+}
+
+img {
+	height: 1.9cm;
+	width: 1.9cm;
+}
